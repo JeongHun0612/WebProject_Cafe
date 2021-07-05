@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+#cont_con {height: 550px;}
+
+.cont_table {padding: 60px 0;}
+.event_table {float: left; width: 100%; border-collapse: collapse; table-layout: fixed; margin-top: 30px;}
+
+.event_table tr {text-align: center; font-weight: normal;}
+.event_table tr.tr_tit {background: #e6e6e6d8; border-top: 2px solid black; font-weight: bold;}
+.event_table tr:last-child {border-bottom: 2px solid black;}
+.event_table th.th_num {width: 59px;}
+.event_table th.th_tit {width: 755px;}
+.event_table th.th_writer {width: 107px;}
+.event_table th.th_day {width: 120px;}
+.event_table th.th_views {width: 59px;}
+
+.event_table th, td {border: 1px solid #bebebe; padding: 10px 0;}
+.event_table tr td.tit {text-align: left; padding-left: 10px;}
+.event_table tr td.tit a:hover {text-decoration: underline;}

@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+#cont_con {height: 100%;}
+
+.event {padding: 60px 0 120px}
+.event_con {margin-top: 60px;}
+.event_box:first-child {border-top: 2px solid black;}
+.event_box:last-child {border-bottom: 1px solid black;}
+.event_box {overflow: hidden; width: 100%; padding: 15px 0; border-top: 1px solid black;}
+.event_box .event_img {float: left; width: 190px;}
+.event_box .event_txt {float: left; padding-left: 40px;}
+.event_box .event_txt .txt_tit {padding-bottom: 30px;}
+.event_box .event_txt .txt_tit h2 {font-size: 16px; font-weight: bold;}
+.event_box .event_txt .txt_con {padding-bottom: 80px;}
+.event_box .event_txt span {font-size: 12px; font-weight: normal;}
+.event_box .event_txt span.hover_span:hover { cursor: pointer; text-decoration: underline;}

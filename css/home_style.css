@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/* content 레이아웃 */
+#cont_con {height: 782px;} 
+
+/* content */
+.cont_top {height: 184px; padding: 60px 0;}
+.left_txt {width: 427px; float: left; border-right: 1px solid #5e5e5e;}
+.left_txt h2 {font-size: 24px; color: #4474b6;}
+.left_txt span {font-size: 24px; font-weight: normal;}
+.left_txt p {padding: 30px 30px 20px 0; font-size: 16px; color: #5e5e5e; font-weight: normal;}
+.right_txt {float: left; padding: 25px 30px;}
+.right_txt p {color: #5e5e5e; font-weight: normal;}
+.right_txt p strong {color: #4474b6;}
+
+.cont_bottom {padding-top: 30px; height: 390px; background: url(../img/banner/banner.png); opacity: 1.0;}
